@@ -7,7 +7,7 @@ let init = 0
 
 const botSay = (data) => {
   return [
-    "Perkenalkan nama saya deabot. siapa nama kamu?",
+    "Perkenalkan nama saya alif bot. siapa nama kamu?",
     `Halo ${data?.nama}, berapa usia kamu?`,
     `Ohhh ${data?.usia}, hobi kamu apa ya?`,
     `wawww sama dong aku juga hobi ${data?.hobi}, btw punya pacar gak?`,
@@ -50,7 +50,7 @@ function botDelay(jawabanUser) {
 }
 
 function finishing() {
-  pertanyaan.innerHTML = `Thank u ya ${usersData[0]} udah main ke deabot 😉, kali-kali kita main ${usersData[2]} bareng ya!`
+  pertanyaan.innerHTML = `Thank u ya ${usersData[0]} udah main ke alif bot 😉, kali-kali kita main ${usersData[2]} bareng ya!`
   jawaban.value = "siap thanks juga!"
 }
 
