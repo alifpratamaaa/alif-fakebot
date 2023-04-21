@@ -1,2 +1,1 @@
-# dea-fakebot
 # alif-fakebot
